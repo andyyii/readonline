@@ -1,0 +1,15 @@
+<svg width="100" height="35" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#abbafc" id="canvas_background" height="37" width="102" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke-width="0" stroke="#000" id="svg_2" d="m17.357159,21.658793c-0.004416,-5.132192 -0.008829,-10.264386 -0.013244,-15.396577c3.986256,0.058987 7.989418,-0.139738 11.962176,0.151469c1.937296,0.665149 1.658104,4.805782 1.626643,7.898514c-0.084984,2.3323 1.131898,6.955804 -2.028765,7.650757c-1.57576,0.000082 -1.581961,0.651146 -1.421121,1.828882c0.186652,1.764397 -0.355215,5.71687 -2.943818,3.211648l-7.181872,-5.344692l0.000001,-0.000001zm12.199865,-1.677713c0.006405,-4.613184 -0.047024,-8.548894 -0.311484,-11.588323c-2.349715,-1.033856 -5.524833,-0.530722 -8.183404,-0.546433c-1.045078,0.491684 2.479097,2.12431 3.226541,2.757798c2.837567,1.362096 3.684174,3.839201 3.194179,6.638695c0,1.088991 0,2.177985 0,3.266976c0.523273,-0.000612 1.605844,-0.251401 2.074169,-0.528715l-0.000001,0.000003z" fill="#ffffff"/>
+  <text stroke="#000" transform="matrix(0.6102920174598694,0,0,0.6763216257095337,15.436089620925486,1.0165523942559958) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_3" y="31.932094" x="46.676545" stroke-opacity="null" stroke-width="0" fill="#ffffff">书  架</text>
+ </g>
+</svg>
