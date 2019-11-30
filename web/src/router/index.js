@@ -8,12 +8,13 @@ const Free = () => import('views/free/Free')
 const Rank = () => import('views/rank/Rank')
 const Read = () => import('views/read/Read')
 
+
 const routes = [
   { path: '/', redirect: '/all'},
   { path: '/all', component: All },
   { path: '/free', component: Free },
   { path: '/rank', component: Rank },
-  { path: '/read', component: Read }
+  { path: '/read', component: Read },
 ]
 
 const router = new VueRouter({

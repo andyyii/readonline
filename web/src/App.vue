@@ -3,16 +3,19 @@
     <t-nav-bar></t-nav-bar>
     <f-nav-bar></f-nav-bar>
     <a-nav-bar></a-nav-bar>
-    <router-view class="router"></router-view>
+    <div class="content">
+    <book-category></book-category>
+    <router-view></router-view>
+    </div>
 </div>
 </template>
-
 
 <script>
 
 import tNavBar from 'components/content/navbar/tNavBar'
 import fNavBar from 'components/content/navbar/fNavBar'
 import aNavBar from 'components/content/navbar/anavbar/aNavBar'
+import bookCategory from 'components/content/category/bookCategory'
 
 export default {
     name: 'App',
@@ -20,6 +23,7 @@ export default {
         tNavBar,
         fNavBar,
         aNavBar,
+        bookCategory
     }
 }
 </script>
@@ -27,8 +31,9 @@ export default {
 <style>
 @import 'assets/css/base.css';
 
-.router {
+.content {
     width: 1200px;
     margin: 0 auto;
 }
+
 </style>

@@ -38,4 +38,5 @@ export default {
 .center {
   margin-left: 30px;
 }
+
 </style>
