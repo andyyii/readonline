@@ -1,16 +1,31 @@
 <template>
   <div class="all">
-    <all-nav-bar></all-nav-bar>
+    <ul>
+      <li v-for="item in books" :key="item.id">{{item.name}}</li>
+    </ul>
   </div>
 </template>
 
 <script>
 
-import allNavBar from 'views/all/childComponents/allNavBar'
+
+
 export default {
   name: 'All',
-   components: {
-     allNavBar
+  data () {
+    return {
+      books:[]
+    }
+  },
+  methods: {
+    async fetch() {
+        const res = await this.$http.get('rest/books')
+        this.books = res.data
+        console.log(res.data)
+      },
+  },
+  created () {
+    this.fetch()
   }
 }
 </script>

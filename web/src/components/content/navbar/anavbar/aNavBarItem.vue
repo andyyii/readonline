@@ -4,13 +4,10 @@
     <div slot="item-text">全部作品</div>
   </tab-bar-item>
   <tab-bar-item path='/rank' activeColor>
-    <div slot="item-text">排行</div>
+    <div slot="item-text">连载</div>
   </tab-bar-item>
   <tab-bar-item path='/read' activeColor>
     <div slot="item-text">完本</div>
-  </tab-bar-item>
-  <tab-bar-item path='/free' activeColor>
-    <div slot="item-text">免费</div>
   </tab-bar-item>
 </div>
 </template>

@@ -15,15 +15,15 @@ export default {
       categories: []
     }
   },
+  methods: {
+    async fetch() {
+        const res = await this.$http.get('rest/categories')
+        this.categories = res.data
+      }
+  },
   created () {
-    var that = this
-    fetch('./index.json')
-    .then(res => {
-      return res.json()
-    })
-    .then(data => {
-      that.categories = data
-    })
+    this.fetch()
+
   }
 }
 </script>

@@ -1,39 +1,36 @@
 <template>
-<div>
-    <t-nav-bar></t-nav-bar>
-    <f-nav-bar></f-nav-bar>
-    <a-nav-bar></a-nav-bar>
-    <div class="content">
-    <book-category></book-category>
-    <router-view></router-view>
+  <div id="app">
+    <img src="./assets/logo.png">
+    <div>
+      <p>
+        If Element is successfully added to this project, you'll see an
+        <code v-text="'<el-button>'"></code>
+        below
+      </p>
+      <el-button>el-button</el-button>
     </div>
-</div>
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  </div>
 </template>
 
 <script>
-
-import tNavBar from 'components/content/navbar/tNavBar'
-import fNavBar from 'components/content/navbar/fNavBar'
-import aNavBar from 'components/content/navbar/anavbar/aNavBar'
-import bookCategory from 'components/content/category/bookCategory'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-    name: 'App',
-    components: {
-        tNavBar,
-        fNavBar,
-        aNavBar,
-        bookCategory
-    }
+  name: 'app',
+  components: {
+    HelloWorld
+  }
 }
 </script>
 
 <style>
-@import 'assets/css/base.css';
-
-.content {
-    width: 1200px;
-    margin: 0 auto;
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
 }
-
 </style>

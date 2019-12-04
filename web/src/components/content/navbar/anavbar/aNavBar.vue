@@ -3,7 +3,10 @@
   <nav-bar class="a-nav-bar">
     <div slot="left" class="left">≡ 作品分类</div>
     <div slot="center" class="center"><a-nav-bar-item></a-nav-bar-item></div>
-    <div slot="right">作家专区</div>
+
+
+
+    <div slot="right" class="right"><i><img src="~assets/img/book.svg"></i></div>
   </nav-bar>
 </div>
 </template>
@@ -37,6 +40,20 @@ export default {
 
 .center {
   margin-left: 30px;
+}
+
+
+
+
+
+.right{
+  line-height: 39px;
+}
+
+.right img{
+  padding-top: 9px;
+  width: 30px;
+  height: 30px;
 }
 
 </style>
